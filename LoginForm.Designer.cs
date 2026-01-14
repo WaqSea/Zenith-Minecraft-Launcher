@@ -25,9 +25,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbSideImage)).BeginInit();
             this.SuspendLayout();
 
-            // 
-            // pnlLeft (SAĞDAKİ GIF ALANI)
-            // 
             this.pnlLeft.BackColor = System.Drawing.Color.Black;
             this.pnlLeft.Controls.Add(this.pbSideImage);
             this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Right;
@@ -76,7 +73,7 @@
             this.txtUsername.TabIndex = 3;
             this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
 
-            // lblError (Hata Mesajı)
+            // lblError 
             this.lblError.AutoSize = true;
             this.lblError.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.lblError.ForeColor = System.Drawing.Color.Red;
@@ -158,4 +155,5 @@
         private System.Windows.Forms.CheckBox chkRemember;
         private System.Windows.Forms.Label lblError;
     }
+
 }
