@@ -7,7 +7,7 @@
 To use the launcher, you don't need to download the source code. Simply follow these steps:
 
 1. Go to the **[Latest Releases](https://github.com/WaqSea/Zenith-Minecraft-Launcher/releases/latest)** section on the right side of this page.
-2. Download the **`ZenithLauncher_Setup.exe`** file.
+2. Download the **`ZenithLauncherSetup.exe`** file.
 3. Run the installer and follow the professional setup wizard (developed by **waqsea**).
 4. Launch the application and start your adventure!
 
