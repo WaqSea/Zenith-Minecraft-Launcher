@@ -26,7 +26,7 @@ This project leverages the following powerful libraries and tools:
 * **[Inno Setup](https://jrsoftware.org/isinfo.php):** Used to create the professional Windows installation package.
 * **.NET Framework:** High-performance application backbone.
 
-### 🖥️ Requirements
+## 🖥️ Requirements
 
 * **Operating System:** Windows 10 or 11 (64-bit recommended)
 * **Prerequisites:** [.NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework/net472) or higher.
