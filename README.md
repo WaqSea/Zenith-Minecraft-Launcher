@@ -6,7 +6,7 @@
 
 To use the launcher, you don't need to download the source code. Simply follow these steps:
 
-1. Go to the **[Latest Releases](https://www.google.com/search?q=../../releases/latest)** section on the right side of this page.
+1. Go to the **[Latest Releases](https://github.com/WaqSea/Zenith-Minecraft-Launcher/releases/latest)** section on the right side of this page.
 2. Download the **`ZenithLauncher_Setup.exe`** file.
 3. Run the installer and follow the professional setup wizard (developed by **waqsea**).
 4. Launch the application and start your adventure!
@@ -22,9 +22,9 @@ To use the launcher, you don't need to download the source code. Simply follow t
 
 This project leverages the following powerful libraries and tools:
 
-* **[CmlLib.Core](https://www.google.com/search?q=https://github.com/CmlLib/CmlLib.Core):** The core library for Minecraft version management and launching.
-* **[MSMC](https://www.google.com/search?q=https://github.com/CmlLib/MSMC):** Microsoft/Xbox authentication integration.
-* **[Inno Setup](https://www.google.com/search?q=https://jrsoftware.org/isinfo.php):** Used to create the professional Windows installation package.
+* **[CmlLib.Core](https://github.com/CmlLib/CmlLib.Core):** The core library for Minecraft version management and launching.
+* **[MSMC](https://github.com/CmlLib/MSMC):** Microsoft/Xbox authentication integration.
+* **[Inno Setup](https://jrsoftware.org/isinfo.php):** Used to create the professional Windows installation package.
 * **.NET Framework:** High-performance application backbone.
 
 ## 👨‍💻 Developer
