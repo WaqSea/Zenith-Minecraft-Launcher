@@ -23,7 +23,6 @@ To use the launcher, you don't need to download the source code. Simply follow t
 This project leverages the following powerful libraries and tools:
 
 * **[CmlLib.Core](https://github.com/CmlLib/CmlLib.Core):** The core library for Minecraft version management and launching.
-* **[MSMC](https://github.com/CmlLib/MSMC):** Microsoft/Xbox authentication integration.
 * **[Inno Setup](https://jrsoftware.org/isinfo.php):** Used to create the professional Windows installation package.
 * **.NET Framework:** High-performance application backbone.
 
