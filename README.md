@@ -2,7 +2,7 @@
 
 **Zenith Launcher**, modern arayüzü ve yüksek performansıyla Minecraft deneyimini iyileştirmek için geliştirilmiş, tamamen açık kaynaklı bir başlatıcıdır.
 
-## 📥 How to Install (Nasıl İndirilir?)
+## 📥 How to Install
 
 To use the launcher, you don't need to download the source code. Simply follow these steps:
 
