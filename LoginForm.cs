@@ -17,7 +17,6 @@ namespace ZenithLauncher
         {
             InitializeComponent();
 
-            // Dili Yükle
             LanguageManager.CurrentLanguage = Properties.Settings.Default.Language;
             ApplyLanguage();
 
@@ -35,13 +34,11 @@ namespace ZenithLauncher
             catch { }
         }
 
-        // Dil Değişikliklerini Uygula
         private void ApplyLanguage()
         {
             lblUser.Text = LanguageManager.Get("Login_Username");
             chkRemember.Text = LanguageManager.Get("Login_Remember");
             btnLogin.Text = LanguageManager.Get("Login_Button");
-            // lblTitle "ZENITH" olduğu için çevirmiyoruz, o marka adı.
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -121,4 +118,5 @@ namespace ZenithLauncher
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
+
 }
