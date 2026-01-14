@@ -1,4 +1,4 @@
-# 🚀 Zenith Launcher v1.0
+# 🚀 Zenith Launcher v1.0.1
 
 **Zenith Launcher** is a fully open-source launcher developed to enhance the Minecraft experience with its modern interface and high performance.
 
