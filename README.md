@@ -18,7 +18,7 @@ To use the launcher, you don't need to download the source code. Simply follow t
 * **Authentication:** Secure login support via MSMC.
 * **Professional Installer:** Multi-language support and desktop shortcut creation.
 
-## 🛠️ Built With (Kullanılan Teknolojiler)
+## 🛠️ Built With
 
 This project leverages the following powerful libraries and tools:
 
