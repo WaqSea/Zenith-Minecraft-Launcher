@@ -23,10 +23,8 @@
             this.lblStatus = new System.Windows.Forms.Label();
             this.pnlSettings = new System.Windows.Forms.Panel();
 
-            // --- YENİ EKLENENLER (DİL SEÇİMİ) ---
             this.cmbLanguage = new System.Windows.Forms.ComboBox();
             this.lblLanguage = new System.Windows.Forms.Label();
-            // ------------------------------------
 
             this.btnBrowseJava = new System.Windows.Forms.Button();
             this.txtJavaPath = new System.Windows.Forms.TextBox();
@@ -259,7 +257,7 @@
             this.btnBrowseJava.Click += new System.EventHandler(this.btnBrowseJava_Click);
 
             // 
-            // lblLanguage (YENİ)
+            // lblLanguage
             // 
             this.lblLanguage.AutoSize = true;
             this.lblLanguage.ForeColor = System.Drawing.Color.White;
@@ -269,7 +267,7 @@
             this.lblLanguage.Size = new System.Drawing.Size(66, 13);
 
             // 
-            // cmbLanguage (YENİ)
+            // cmbLanguage
             // 
             this.cmbLanguage.BackColor = System.Drawing.Color.FromArgb(50, 50, 50);
             this.cmbLanguage.ForeColor = System.Drawing.Color.White;
@@ -333,9 +331,8 @@
         private System.Windows.Forms.TrackBar tbRam;
         private System.Windows.Forms.Label lblRamAmount;
         private System.Windows.Forms.CheckBox chkAutoRam;
-
-        // Yeni Elemanlar
         private System.Windows.Forms.ComboBox cmbLanguage;
         private System.Windows.Forms.Label lblLanguage;
     }
+
 }
