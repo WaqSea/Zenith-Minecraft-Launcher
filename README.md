@@ -1,6 +1,6 @@
 # 🚀 Zenith Launcher v1.0
 
-**Zenith Launcher**, modern arayüzü ve yüksek performansıyla Minecraft deneyimini iyileştirmek için geliştirilmiş, tamamen açık kaynaklı bir başlatıcıdır.
+**Zenith Launcher** is a fully open-source launcher developed to enhance the Minecraft experience with its modern interface and high performance.
 
 ## 📥 How to Install
 
