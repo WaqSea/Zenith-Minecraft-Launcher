@@ -38,7 +38,6 @@ namespace ZenithLauncher
 
         private async void Form1_Load(object sender, EventArgs e)
         {
-            // Önce Ayarları ve Dili Yükle
             LoadUserSettings();
             ApplyLanguage();
 
@@ -66,14 +65,12 @@ namespace ZenithLauncher
             }
         }
 
-        // --- DİL GÜNCELLEME METODU ---
         private void ApplyLanguage()
         {
             btnLaunch.Text = LanguageManager.Get("Main_Play");
             lblVer.Text = LanguageManager.Get("Main_Version");
             btnSettings.Text = LanguageManager.Get("Main_Settings");
 
-            // Ayarlar Paneli
             lblSettingsTitle.Text = LanguageManager.Get("Settings_Title");
             lblRamTitle.Text = LanguageManager.Get("Settings_RamTitle");
             chkAutoRam.Text = LanguageManager.Get("Settings_AutoRam");
@@ -95,7 +92,6 @@ namespace ZenithLauncher
                 chkAutoRam.Checked = Properties.Settings.Default.IsAutoRam;
                 tbRam.Enabled = !chkAutoRam.Checked;
 
-                // Dil Yüklemesi
                 string lang = Properties.Settings.Default.Language;
                 LanguageManager.CurrentLanguage = lang;
                 cmbLanguage.SelectedItem = (lang == "EN") ? "English" : "Türkçe";
@@ -111,14 +107,12 @@ namespace ZenithLauncher
                 Properties.Settings.Default.JavaPath = txtJavaPath.Text;
                 Properties.Settings.Default.IsAutoRam = chkAutoRam.Checked;
 
-                // Dil Kaydı
                 string selectedLang = (cmbLanguage.SelectedItem.ToString() == "English") ? "EN" : "TR";
                 Properties.Settings.Default.Language = selectedLang;
                 LanguageManager.CurrentLanguage = selectedLang;
 
                 Properties.Settings.Default.Save();
 
-                // Kaydettikten sonra dili anında uygula
                 ApplyLanguage();
 
             }
@@ -143,7 +137,6 @@ namespace ZenithLauncher
                     pbDownload.Maximum = prog.TotalTasks;
                     pbDownload.Value = prog.ProgressedTasks;
 
-                    // İndirme yazısı
                     if (prog.TotalTasks > 0)
                         lblStatus.Text = LanguageManager.Get("Main_Downloading") + $" %{prog.ProgressedTasks * 100 / prog.TotalTasks}";
                 });
@@ -208,4 +201,5 @@ namespace ZenithLauncher
         private void btnClose_Click(object sender, EventArgs e) => Application.Exit();
         private void btnMinimize_Click(object sender, EventArgs e) => this.WindowState = FormWindowState.Minimized;
     }
+
 }
